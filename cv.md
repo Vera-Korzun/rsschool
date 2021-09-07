@@ -1,5 +1,5 @@
 # **Vera Korzun** 
-###### Front-end developer
+###### *Front-end developer*
 
 ## My contacts
 ###### :iphone: +46765771605
@@ -19,35 +19,6 @@
 * Figma
 * Git/GitHub
 * MongoDB
-
-
-JavaScript (Fundamentals,Functional Programming, OOP, Asynchronous JavaScript, ES6+,DOM),JSON.
-React JS, Redux (intermediate level knowledge).
-Version control: Git (remote service GitHub).
-Module Bundlers: Gulp, Webpack.
-
-<!-- <img align="left" alt="JavaScript" width="64px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-
-<img align="left" alt="React" width="64px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-
-<img align="left" alt="Node.js" width="64px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
-
-<img align="left" alt="HTML5" width="64px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-
-<img align="left" alt="CSS3" width="64px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-
-<img align="left" alt="Sass" width="64px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
-
-<img align="left" alt="WebPack" width="64px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png" /> 
-
-<img align="left" alt="Git" width="64px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-
-<img align="left" alt="GitHub" width="64px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" /> 
-
-<img align="left" alt="Terminal" width="64px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
-
-<img alt="Visual Studio Code" width="64px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
- -->
  
 ## Code examples
 
@@ -65,9 +36,16 @@ const findLongestWord = function (string = "") {
   return resultWord;
 };
 ```
+## My work experience
 
-## Опыт работы. Junior Dev может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.
+ Опыт работы. Junior Dev может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.
 
-## Образование (включая курсы, семинары, лекции, онлайн-обучение)
+## My education
 
-## Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+ Образование (включая курсы, семинары, лекции, онлайн-обучение)
+
+## Languages
+
+* English - B1
+* Swedish -B1
+* Russian - native

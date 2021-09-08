@@ -5,17 +5,18 @@
 #### My contacts
 ###### :iphone: +46765771605
 ###### :e-mail: veraminich@gmail.com
+###### ![Linkedin]()
 ***
 
 #### Information about me
 I am looking for a junior front-end developer position to provide great results for my future team, gain experience and improve my developer skills.
-Soft skills
-Desire to learn
-Critical thinking
-Problem solving
-Teamwork
-Results-oriented
-Enthusiasm
+* Soft skills
+  * Desire to learn
+  * Critical thinking
+  * Problem solving
+  * Teamwork
+  * Results-oriented
+  * Enthusiasm
 ***
 
 #### My skills
@@ -55,7 +56,7 @@ const findLongestWord = function (string = "") {
   * Web-app for diet-planning and calories calculation. 
   * The teamproject is built with ReactJS and Redux.
 * [OLX SHOP](https://vera-korzun.github.io/Project-2/)
-  * Online shop. 
+  * Online shop for people who want to publish an advertisement for the sale, purchase or advertisement of a product. . 
   * The teamproject is built with webpack, written in vanilla JS.
 * [HELLOEN](https://vera-korzun.github.io/Project-1/)
   * Information portal for english teaching school.

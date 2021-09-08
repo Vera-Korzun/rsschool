@@ -19,7 +19,7 @@ I am looking for a junior front-end developer position to provide great results 
   * Critical thinking
   * Problem solving
   * Teamwork
-  * Results-oriented
+  * Result-oriented
   * Enthusiasm
 ***
 
@@ -50,6 +50,7 @@ const findLongestWord = function (string = "") {
   return resultWord;
 };
 ```
+You can find more examples of my code [here](https://github.com/Vera-Korzun).
 ***
 
 #### My work experience
@@ -76,7 +77,7 @@ const findLongestWord = function (string = "") {
 ***
 
 #### Languages
-* English - B1
-* Swedish -B1
+* English - intermediate
+* Swedish -intermediate
 * Russian - native
 ***

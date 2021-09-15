@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 section {
     margin: 25px auto;
-    border-top: var(--secondary-text-color) solid 1px;
+    /* border-top: var(--secondary-text-color) solid 1px; */
 }
 
 .container {
@@ -69,7 +69,11 @@ section {
 
 .right-part {
     margin-left: 30px;
+color: var(--secondary-text-color);
+}
 
+.right-part section {
+    margin-top: 40px;
 }
 
 .main_bild {
@@ -91,8 +95,7 @@ header h3 {
 	font-size: 18px;
 	line-height: 1.14;
     margin-top: 10px;
-    text-align: center;
-   
+    text-align: center; 
 }
 
 .second-title {
@@ -101,6 +104,9 @@ header h3 {
 	line-height: 1.14;
     text-align: center;
     margin-top: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: var(--secondary-text-color) solid 1px;
 }
 
 .contacts-list-item {
@@ -108,7 +114,7 @@ header h3 {
 	justify-content: flex-start;
 	align-items: center;	
     flex-direction: row;
-   margin-top: 15px;
+    margin-top: 15px;
 }
 
 .contacts-list-img {
@@ -119,4 +125,31 @@ header h3 {
     padding-left: 20px;
 }
 
+.right-title {
+    text-align: start;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: none;
+    }
+
+.experience-list-link {
+    color: #a7c3b4;
+    font-weight: 500;
+	font-size: 18px;
+	line-height: 1.14;
+}
+
+.my-info {
+    font-weight: 400;
+	font-size: 16px;
+	line-height: 1.14;
+}
+
+.experience-link-list {
+    margin: 15px 0px 15px 30px;
+}
+
+.education-list {
+    margin-left: 20px;
+}
 

@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://vera-korzun.github.io/rsschool-cv/

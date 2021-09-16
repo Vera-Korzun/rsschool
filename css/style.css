@@ -34,15 +34,13 @@ section {
 }
 
 .container {
-    width: 1280px;
-    padding-left: 39px;
-    padding-right: 39px;
+    margin: 20px auto;
+    width: 1024px;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
-    width: 100%;
-    padding-left: 25px;
-    padding-right: 25px;
+    background-color: #ffffff;
+    box-shadow: 15px 10px 19px 10px rgba(203,190,181,80%);
+    
 }
 
 .list {
@@ -69,11 +67,12 @@ section {
 
 .right-part {
     margin-left: 30px;
+    margin-right: 40px;
 color: var(--secondary-text-color);
 }
 
 .right-part section {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .main_bild {
@@ -121,7 +120,7 @@ header h3 {
     margin-right: 10px;
 }
 
-.tech_skills-list {
+.tech_skills-list, .soft_skills-list, .languages-list {
     padding-left: 20px;
 }
 
@@ -153,3 +152,27 @@ header h3 {
     margin-left: 20px;
 }
 
+.education-list-item {
+    font-weight: normal;
+	font-size: 16px;
+	line-height: 1.14;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.education-item-year {
+    min-width: 100px;
+    margin-right: 20px;
+}
+
+.education-part-prof {
+   font-weight: bold;
+   font-style: italic;
+	font-size: 16px;
+	line-height: 1.14;
+}
+
+.code-link {
+    color: #a7c3b4;
+}

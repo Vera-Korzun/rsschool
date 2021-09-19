@@ -22,11 +22,11 @@
   <body>
     <div class="container">
       <aside class="left-part">
-        <header>
-          <img class="main_bild" src="./img/vera_korzun.jpg" alt="My photo" />
-          <h2 class="title">Vera Korzun</h2>
-          <h3>Front-end developer</h3>
-        </header>
+        <!-- <header> -->
+        <img class="main_bild" src="./img/vera_korzun.jpg" alt="My photo" />
+        <h2 class="title">Vera Korzun</h2>
+        <h3>Front-end developer</h3>
+        <!-- </header> -->
 
         <section class="contacts">
           <h3 class="second-title">Contacts</h3>
@@ -117,8 +117,35 @@
           </ul>
         </section>
       </aside>
+
       <div class="right-part">
-        <section class="info">
+        <header>
+          <nav class="navigation">
+            <ul class="list navigation-list">
+              <li class="navigation-list-item">
+                <a href="#info" class="link navigation-link"
+                  >Information about me</a
+                >
+              </li>
+              <li class="navigation-list-item">
+                <a href="#experience" class="link navigation-link"
+                  >My work experience</a
+                >
+              </li>
+              <li class="navigation-list-item">
+                <a href="#education" class="link navigation-link"
+                  >My education</a
+                >
+              </li>
+              <li class="navigation-list-item">
+                <a href="#examples" class="link navigation-link"
+                  >Code examples</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="info" id="info">
           <h4 class="second-title right-title">Information about me</h4>
           <p class="my-info">
             I am looking for a junior front-end developer position to provide
@@ -126,7 +153,7 @@
             developer skills.
           </p>
         </section>
-        <section class="experience">
+        <section class="experience" id="experience">
           <h4 class="second-title right-title">My work experience</h4>
           <ul class="list experience-list">
             <li>
@@ -183,7 +210,7 @@
             </li>
           </ul>
         </section>
-        <section class="education">
+        <section class="education" id="education">
           <h4 class="second-title right-title">My education</h4>
           <ul class="education-list">
             <li class="education-list-item">
@@ -222,7 +249,7 @@
             </li>
           </ul>
         </section>
-        <section class="code_exp">
+        <section class="code_exp" id="examples">
           <h4 class="second-title right-title">Code examples</h4>
           <img src="./img/code.jpg" alt="Code examples" width="700" />
           <p>

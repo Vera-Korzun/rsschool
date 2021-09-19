@@ -18,6 +18,8 @@ body {
 	color: var(--primary-text-color);
 	font-family: Cabin, sans-serif;
 	letter-spacing: 0.03em;
+    max-width: 100%;
+    overflow-x: hidden;
     
 }
 
@@ -35,11 +37,13 @@ section {
 .container {
     margin: 20px auto;
     width: 1024px;
-    display: flex;
-    flex-direction: row;
     background-color: #ffffff;
-    box-shadow: 15px 10px 19px 10px rgba(203,190,181,80%);
-    
+    box-shadow: 15px 10px 19px 10px rgba(203,190,181,80%); 
+}
+
+main {
+display: flex;
+flex-direction: row;
 }
 
 .list {
@@ -60,7 +64,7 @@ section {
 .left-part {
     background-color: var(--secondary-bg-color);
     color: var(--secondary-text-color);
-    max-width: 250px;
+    /* max-width: 350px; */
     padding: 25px;
 }
 
@@ -84,6 +88,12 @@ color: var(--secondary-text-color);
     margin-top: 15px;
 }
 
+.title-second {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+
 header h3 {
     font-weight: 500;
 	font-size: 18px;
@@ -104,11 +114,14 @@ header h3 {
 }
 
 .contacts-list-item {
-    display: flex;
-	justify-content: flex-start;
-	align-items: center;	
+
     flex-direction: row;
     margin-top: 15px;
+}
+
+.contacts-link {
+            display: flex;
+    align-items: center;
 }
 
 .contacts-list-img {
@@ -149,6 +162,9 @@ justify-content: space-around;
     border-bottom: none;
     margin-top: 40px;
     }
+.experience-list-item{
+margin-top: 25px
+} 
 
 .experience-list-link {
     color: #a7c3b4;
@@ -194,4 +210,15 @@ justify-content: space-around;
 
 .code-link {
     color: #a7c3b4;
+}
+
+.cv-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    color: var(--secondary-text-color);
+    background-color: #faea68;
 }

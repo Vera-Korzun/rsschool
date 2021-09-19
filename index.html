@@ -17,7 +17,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/styles/default.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </head>
   <body>
     <div class="container">
@@ -266,10 +274,26 @@
           </section>
           <section class="code_exp" id="examples">
             <h4 class="second-title right-title">Code examples</h4>
-            <img src="./img/code.jpg" alt="Code examples" width="700" />
+            <pre
+              class="javascript"
+            ><code>const findLongestWord = function (string = "") {
+  let str = string.split(" "); 
+  let maxLength = 0; 
+  let resultWord = ""; 
+  for (let i = 0; i < str.length; i += 1) {
+    if (maxLength < str[i].length) {
+      maxLength = str[i].length;
+      resultWord = str[i];
+    }
+  }
+  return resultWord;
+};</code></pre>
             <p>
               You can find more examples of my code
-              <a class="link code-link" href="https://github.com/Vera-Korzun"
+              <a
+                class="link code-link"
+                href="https://github.com/Vera-Korzun"
+                target="_blank"
                 >here</a
               >
             </p>
